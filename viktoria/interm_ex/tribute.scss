@@ -51,6 +51,8 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 20px;
+    text-shadow: 5px 0px 10px #000000;
     .content {
         background-color: $secondary-bg-color;
         width: 40%;
@@ -65,10 +67,23 @@ footer {
     text-align: center;
     position: fixed;
     bottom: 10%;
+    text-shadow: 5px 0px 10px #000000;
+    font-size: 18px;
+    &:hover {
+            background-color: #ffffff;
+        }
     p {
         background-color: $secondary-bg-color;
         height: 50px;
         padding: 20px 20px;
-
+        a{
+            text-decoration: none;
+            color: $font-color;
+            transition: 1s;
+            &:hover {
+                font-size: 30px;
+                color: $primary-bg-color;
+            }
+        }
     }
 }
