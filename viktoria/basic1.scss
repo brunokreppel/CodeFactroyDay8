@@ -1,0 +1,63 @@
+/*basic rewrite of a basic page from previous week*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    h1 {
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: black;
+        background-color: bisque;
+        text-transform: uppercase;
+        text-align: center;
+        text-shadow: 2px 2px 2px #FF5858;
+    }
+    h4 {
+        display: inline-block;
+        width: 15%;
+        background-color: #F5EFEF;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        color: #413F3F;
+        float: left;
+        border-style: dotted;
+        margin: 5px;
+    }
+}
+body {
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    img {
+        width: 300px;
+        border: 1px solid;
+        margin-top: 5px;
+    }
+    .right {
+        width: 30%;
+        display: inline-block;
+        float: right;
+        margin-left: 5%;
+    }
+    .summary {
+        width: 47%;
+        display: inline-block;
+        background-color: #FFEEEE;
+        font-size: 20px;
+        text-align: justify;
+        float: right;
+        margin: 7px;
+        padding: 5px;
+
+    }
+    article {
+        font-size: 18px;
+        display: inline;
+        text-align: justify;
+    }
+}
