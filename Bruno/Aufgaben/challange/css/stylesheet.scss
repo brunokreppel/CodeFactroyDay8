@@ -14,12 +14,12 @@ body{
     background-image: url(../img/shutterstock_1366015142-scaled.jpg);
     height: 600px;
     background-color: #FDFDFD;
-    background-size: contain;
+    background-size:cover;
+    background-size: 70%;
     background-repeat: no-repeat;
     transform: scaleX(-1); 
     display: flex;
     justify-content: flex-end;
-   
 }
 
 .quote{
