@@ -1,0 +1,25 @@
+@use "navbar"; 
+@use "navbartwo"; 
+@font-face {
+    font-family: TeleNeo;
+    src: url(../font/Tele\ Neo\ Office\ Medium.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "TeleNeo";
+}
+
+
+
+
+//  @media screen and (min-width: 481px) and (max-width: 1200px) {
+//     body {
+//          background-color: deepskyblue;
+//     }
+//  }
+//  @media screen and (min-width:1201px) {
+//     body {
+//         background-color: darksalmon;
+//     }
+//  }
