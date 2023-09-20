@@ -5,11 +5,71 @@
 }
 
 body {
-  background-color: #32296B;
+  background-color: black;
   color: white;
   font-family: "Lucida Bright", Georgia, serif;
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_1280.jpg);
+  background-size: cover;
 }
 
-.bar {
-  background-color: #32296B;
+nav {
+  background-color: #0B146D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+}
+nav img {
+  height: 100%;
+  padding: 2px;
+  margin: 10px 10px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 0px 10px #FAC6F0;
+  font-size: 25px;
+  color: white;
+  display: inline-block;
+  padding: 1rem 2rem;
+}
+nav a:hover {
+  color: #F79D12;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container .content {
+  background-color: rgba(192, 192, 194, 0.5);
+  width: 40%;
+  padding: 30px 30px;
+}
+
+footer {
+  width: 30%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  bottom: 10%;
+}
+footer p {
+  background-color: rgba(192, 192, 194, 0.5);
+  height: 50px;
+  padding: 20px 20px;
 }/*# sourceMappingURL=tribute.css.map */
