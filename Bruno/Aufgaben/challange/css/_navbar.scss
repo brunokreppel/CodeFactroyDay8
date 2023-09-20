@@ -2,16 +2,18 @@
     display: flex;
     justify-content: flex-start;
     align-items:center;
+ 
 
     a{
         padding: 0 30px;
         text-decoration: none;
         color: #FAF9F6	;
         font-size: 16px;
-        font-family: 'Nova Mono', monospace;
+        font-family: 'Quattrocento Sans', sans-serif;
         letter-spacing: 2px;
         text-transform: uppercase;
-     
+        font-weight: bold;
+      
     }
     img{
         height: 60px;

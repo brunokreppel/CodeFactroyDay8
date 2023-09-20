@@ -1,53 +1,35 @@
 // Laptop
-@media screen and (max-width: 1250px) and (min-width: 999px) {
-    .quote {
-      padding-left: 100px !important;
-    }
-    #hero {
-      background-size: contain !important;
-    }
+@media screen and (max-width: 1250px) and (min-width: 999px) {}
+
+@media screen and (max-width: 999px) {
+  #hero {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 2fr !important;
+
   }
-  
-  @media screen and (max-width: 999px) and (min-width: 768px) {
-    .quote {
-      padding-left: 20px !important;
-      font-size: 22px !important;
-    }
-    #hero {
-      background-size: cover !important;
-    }
+
+  .item1 {
+    order: 1;
+    /* Container 1 will appear on top */
+    height: 22vh !important;
   }
-  
-  // iPad
-  @media screen and (max-width: 768px) and (min-width: 452px) {
-    .quote {
-      margin-top: 370px !important;
-      padding-left: 10px !important;
-      font-size: 18px !important;
-      
-    }
-    #hero {
-      background-size: cover !important;
-      background-size: 110% 100%!important;
-    }
+
+  .item2 {
+    order: 2;
+    /* Container 2 will appear below Container 1 */
+    height: 68vh !important;
   }
-  
-  @media screen and (max-width: 699px) {
-    #nav a {
-      display: none;
-    }
+
+}
+
+// iPad
+@media screen and (max-width: 768px) and (min-width: 452px) {}
+
+@media screen and (max-width: 740px) {
+  #nav a {
+    display: none;
   }
-  
-  // Phone
-  @media screen and (max-width: 451px) {
-    .quote {
-        margin-top: 370px !important;
-        padding-left: 10px !important;
-        font-size: 14px !important;
-    }
-    #hero {
-        background-size: cover !important;
-        background-size: 170% 100%!important;
-      }
-  }
-  
+}
+
+// Phone
+@media screen and (max-width: 451px) {}

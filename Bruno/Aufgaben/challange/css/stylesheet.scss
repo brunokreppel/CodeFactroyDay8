@@ -1,90 +1,91 @@
 @use "navbar";
 @use "_mediaquarry";
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #FDFDFD;
 }
 
-#hero{
-    background-image: url(../img/shutterstock_1366015142-scaled.jpg);
-    height: 600px;
-    background-color: #FDFDFD;
-    background-size:cover;
-    background-size: 70%;
-    background-repeat: no-repeat;
-    transform: scaleX(-1); 
+#hero {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 20px;
+
+}
+
+.item1 {
     display: flex;
-    justify-content: flex-end;
-}
-
-.quote{
-    padding-left: 300px;
-    height: fit-content;
-    transform: scaleX(-1);
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin-top: 300px;
-    margin-left: 30px;
-    font-size: 32px;
-   
-
-
-    
-  
-}
-span{
-    transform: inherit ;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    background-color: #FDFDFD;
+    height: 85vh;
     font-family: 'Indie Flower', cursive;
-    
+    font-size: 42px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) !important;
+
+}
+
+.item2 {
+    background-color: #FDFDFD;
+    background-image: url(../img/shutterstock_1366015142-scaled.jpg);
+    background-size: cover;
+    background-size: 170% 100%;
+    transform: scaleX(-1);
+    background-repeat: no-repeat;
+    height: 90vh;
 }
 
 
-#footer{
-position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: #151F30;
-height: 8vh;
-text-align: center;
-display: flex;
-justify-content: center;
-align-items: center;
-color: #FDFDFD;
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #151F30;
+    height: 4vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FDFDFD;
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-transform: uppercase;
 }
 
 
 .burger-menu {
-    width: 30px; /* Adjust the size of the burger menu icon */
-    height: 20px; /* Adjust the size of the burger menu icon */
+    width: 30px;
+    /* Adjust the size of the burger menu icon */
+    height: 20px;
+    /* Adjust the size of the burger menu icon */
     cursor: pointer;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-  
-  .bar {
-    width: 100%;
-    height: 2.5px; /* Adjust the thickness of the lines */
-    background-color: #FDFDFD; /* Adjust the color of the lines */
-    border-radius: 2px;
-  }
+}
 
-  #wrappernav{
-    height: 80px;
-    background-color: #151F30  ;
+.bar {
+    width: 100%;
+    height: 3px;
+    background-color: #FDFDFD;
+    border-radius: 2px;
+}
+
+#wrappernav {
+    height: 6vh;
+    background-color: #151F30;
     display: flex;
     justify-content: space-between;
-  }
+}
 
-  .burger-wrapper{
+.burger-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-right: 20px
-  }
+}
