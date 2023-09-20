@@ -1,9 +1,19 @@
 #nav {
-  height: 60px;
+  height: 80px;
   background-color: rgb(30, 30, 30);
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+#nav a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #FAF9F6;
+  font-size: 16px;
+  font-family: "Libre Caslon Text", serif;
+}
+#nav a img {
+  height: 60px;
 }
 
 * {

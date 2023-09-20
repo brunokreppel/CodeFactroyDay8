@@ -1,7 +1,19 @@
 #nav{
-    height: 60px;
-    background-color: rgb(30, 30, 30);
+    height: 80px;
+    background-color: rgb(30, 30, 30)   ;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items:center;
+
+    a{
+        padding: 0 20px;
+        text-decoration: none;
+        color: #FAF9F6	;
+        font-size: 16px;
+        font-family: 'Libre Caslon Text', serif;
+
+     img{
+        height: 60px;
+     }
+    }
 }
