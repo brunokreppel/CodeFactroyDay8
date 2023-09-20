@@ -6,11 +6,69 @@
 }
 
 body {
-    background-color: $primary-bg-color;
+    background-color: black;
     color: $font-color;
     font-family: $font-stack;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_1280.jpg);
+    background-size: cover;
 }
-.bar {
+nav {
     background-color: $primary-bg-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    img {
+        height: 100%;
+        padding: 2px;
+        margin: 10px 10px;
+    }
+    ul {
+        display: flex;
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        text-shadow: 1px 0px 10px #FAC6F0;
+        font-size: 25px;
+        color: $font-color;
+        display: inline-block;
+        padding: 1rem 2rem;
+        &:hover {
+            color:#F79D12;
+        }
+    }
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .content {
+        background-color: $secondary-bg-color;
+        width: 40%;
+        padding: 30px 30px;
+    }
+}
+footer {
+    width: 30%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    bottom: 10%;
+    p {
+        background-color: $secondary-bg-color;
+        height: 50px;
+        padding: 20px 20px;
 
+    }
 }
