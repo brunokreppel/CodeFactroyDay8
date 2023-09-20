@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
     
 }
 #nav1 a{
@@ -38,11 +39,8 @@ display: flex;
 
    .nav1-right img{
     width: 20px;
-    height: 20px;
+    height: 20px
    }
 
   
  }
-
-
- 

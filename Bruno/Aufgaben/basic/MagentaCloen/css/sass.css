@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 #nav1 a {
@@ -66,18 +67,6 @@
   transform: scale(1.2);
 }
 
-#container {
-  display: none;
-  width: 100%;
-  height: 450px;
-  color: #222;
-  overflow: hidden;
-  position: absolute;
-  background-color: white;
-  box-shadow: 0 5px 5px 0 rgba(50, 50, 50, 0.2);
-  z-index: 2;
-}
-
 div a.link:hover ~ #container {
   background-color: #E20074;
   display: block;
@@ -103,16 +92,6 @@ div a.link:hover ~ #container {
 }
 
 @media screen and (max-width: 850px) {
-  #nav2 a {
-    font-size: 12px;
-    padding: 2px;
-    border: 1px solid magenta;
-    border-radius: 10px;
-    background-color: #E20074;
-    color: white;
-  }
-}
-@media screen and (max-width: 490px) {
   #nav2 {
     display: none;
   }

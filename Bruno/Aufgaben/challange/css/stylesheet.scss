@@ -1,0 +1,34 @@
+@use "navbar";
+@use "_mediaquarry";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FDFDFD;
+}
+
+#hero{
+    background-image: url(../img/shutterstock_1366015142-scaled.jpg);
+    height: 600px;
+    background-color: #FDFDFD;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    transform: scaleX(-1); 
+   
+
+    span{
+        position: absolute;
+        top: 50%;
+        right: 20vw;
+        font-size: 36px;
+        transform: inherit ;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-family: 'Indie Flower', cursive;
+        
+    }
+}
