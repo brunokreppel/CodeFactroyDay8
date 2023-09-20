@@ -1,0 +1,128 @@
+#nav1 {
+  background-color: #E20074;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav1 a {
+  text-decoration: none;
+  color: white;
+}
+
+#nav1 p {
+  color: white;
+  font-size: 20px;
+}
+
+.nav1-left {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  font-size: 16px;
+}
+
+.nav1-right {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  padding-right: 35px;
+}
+
+@media screen and (max-width: 600px) {
+  .nav1-left a, p {
+    display: none;
+  }
+  .nav1-right img {
+    width: 20px;
+    height: 20px;
+  }
+}
+#nav2 {
+  height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 5px 5px 0 rgba(50, 50, 50, 0.2);
+  position: relative;
+}
+
+#nav2 a {
+  color: #222;
+  font-size: 20px;
+  line-height: 22px;
+  padding: 28px 20px;
+  font-weight: normal;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#nav1 a {
+  transition: 0.2s;
+}
+
+#nav1 a:hover {
+  transform: scale(1.2);
+}
+
+#container {
+  display: none;
+  width: 100%;
+  height: 450px;
+  color: #222;
+  overflow: hidden;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 5px 5px 0 rgba(50, 50, 50, 0.2);
+  z-index: 2;
+}
+
+div a.link:hover ~ #container {
+  background-color: #E20074;
+  display: block;
+}
+
+.container {
+  width: 100%;
+  height: 300px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0 5px 5px 0 rgba(50, 50, 50, 0.2);
+  top: 100%;
+}
+
+.link:hover ~ .container {
+  display: block;
+}
+
+.container:hover {
+  display: block;
+}
+
+@media screen and (max-width: 850px) {
+  #nav2 a {
+    font-size: 12px;
+    padding: 2px;
+    border: 1px solid magenta;
+    border-radius: 10px;
+    background-color: #E20074;
+    color: white;
+  }
+}
+@media screen and (max-width: 490px) {
+  #nav2 {
+    display: none;
+  }
+}
+@font-face {
+  font-family: TeleNeo;
+  src: url(../font/Tele\ Neo\ Office\ Medium.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "TeleNeo";
+}/*# sourceMappingURL=sass.css.map */
