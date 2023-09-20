@@ -19,22 +19,32 @@
   padding: 0 30px;
 }
 
-@media screen and (max-width: 1200px) and (min-width: 999px) {
+@media screen and (max-width: 1250px) and (min-width: 999px) {
   .quote {
     padding-left: 100px !important;
+  }
+  #hero {
+    background-size: contain !important;
   }
 }
 @media screen and (max-width: 999px) and (min-width: 768px) {
   .quote {
-    padding-left: 30px !important;
-    font-size: 26px !important;
+    padding-left: 20px !important;
+    font-size: 22px !important;
+  }
+  #hero {
+    background-size: cover !important;
   }
 }
 @media screen and (max-width: 768px) and (min-width: 452px) {
   .quote {
-    margin-top: 170px !important;
-    padding-left: 30px !important;
-    font-size: 13px !important;
+    margin-top: 370px !important;
+    padding-left: 10px !important;
+    font-size: 18px !important;
+  }
+  #hero {
+    background-size: cover !important;
+    background-size: 110% 100% !important;
   }
 }
 @media screen and (max-width: 699px) {
@@ -47,6 +57,11 @@
     margin-top: 150px !important;
     padding-left: 1px !important;
     font-size: 12px !important;
+    color: blue;
+  }
+  #hero {
+    background-size: cover !important;
+    background-size: 110% 100% !important;
   }
 }
 * {
@@ -63,7 +78,8 @@ body {
   background-image: url(../img/shutterstock_1366015142-scaled.jpg);
   height: 600px;
   background-color: #FDFDFD;
-  background-size: contain;
+  background-size: cover;
+  background-size: 70%;
   background-repeat: no-repeat;
   transform: scaleX(-1);
   display: flex;

@@ -1,58 +1,54 @@
-
-//  Laptoop
-@media screen and (max-width: 1200px) and (min-width:999px ) 
-{  
-   .quote{
-    padding-left: 100px !important;
-    
-   }
-
- 
-   
-  }
-
-  @media screen and (max-width: 999px) and (min-width:768px ) 
-{  
-   .quote{
-    padding-left: 30px !important;
-    font-size: 26px !important;
-   
-   }
-
- 
-   
-  }
-
-  //  ipad
-
-  @media screen and (max-width: 768px) and (min-width:452px ) {
-    .quote{
-   
-        margin-top: 170px !important;
-        padding-left: 30px !important;
-        font-size: 13px !important;
- 
-    
+// Laptop
+@media screen and (max-width: 1250px) and (min-width: 999px) {
+    .quote {
+      padding-left: 100px !important;
     }
- 
+    #hero {
+      background-size: contain !important;
+    }
+  }
   
-    
-   }
+  @media screen and (max-width: 999px) and (min-width: 768px) {
+    .quote {
+      padding-left: 20px !important;
+      font-size: 22px !important;
+    }
+    #hero {
+      background-size: cover !important;
+    }
+  }
+  
+  // iPad
+  @media screen and (max-width: 768px) and (min-width: 452px) {
+    .quote {
+      margin-top: 370px !important;
+      padding-left: 10px !important;
+      font-size: 18px !important;
+      
+    }
+    #hero {
+      background-size: cover !important;
+      background-size: 110% 100%!important;
+    }
+  }
+  
   @media screen and (max-width: 699px) {
-    #nav a{
-        display: none;
-       }
-   }
-  
-   //  Phone
-
-  @media screen and (max-width: 451px) {
-    .quote{
-        margin-top: 150px !important;
-        padding-left: 1px !important;
-        font-size: 12px !important;
-    
+    #nav a {
+      display: none;
     }
+  }
   
-    
-   }
+  // Phone
+  @media screen and (max-width: 451px) {
+    .quote {
+      margin-top: 150px !important;
+      padding-left: 1px !important;
+      font-size: 12px !important;
+      color: blue;
+    }
+    #hero {
+        background-size: cover !important;
+        background-size: 110% 100%!important;
+      }
+  }
+  
