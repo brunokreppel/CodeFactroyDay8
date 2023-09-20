@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #32296B;
+  color: white;
+  font-family: "Lucida Bright", Georgia, serif;
+}
+
+.bar {
+  background-color: #32296B;
+}/*# sourceMappingURL=tribute.css.map */
