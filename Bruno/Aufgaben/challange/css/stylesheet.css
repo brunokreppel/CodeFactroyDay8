@@ -18,6 +18,12 @@
   padding: 0 30px;
 }
 
+@media screen and (max-width: 1500px) and (min-width: 999px) {
+  .item2 {
+    background-size: cover;
+    background-size: 140% 100% !important;
+  }
+}
 @media screen and (max-width: 999px) {
   #hero {
     grid-template-columns: 1fr !important;
@@ -26,12 +32,12 @@
   .item1 {
     order: 1;
     /* Container 1 will appear on top */
-    height: 22vh !important;
+    height: 21vh !important;
   }
   .item2 {
     order: 2;
     /* Container 2 will appear below Container 1 */
-    height: 68vh !important;
+    height: 67vh !important;
   }
 }
 @media screen and (max-width: 740px) {
@@ -74,7 +80,7 @@ body {
   background-size: 170% 100%;
   transform: scaleX(-1);
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 88vh;
 }
 
 #footer {
@@ -111,7 +117,7 @@ body {
 }
 
 #wrappernav {
-  height: 6vh;
+  height: 8vh;
   background-color: #151F30;
   display: flex;
   justify-content: space-between;

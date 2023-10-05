@@ -1,7 +1,13 @@
 // Laptop
-@media screen and (max-width: 1250px) and (min-width: 999px) {}
+@media screen and (max-width: 1500px) and (min-width: 999px) {
 
-@media screen and (max-width: 999px) {
+    .item2{
+        background-size: cover;
+        background-size: 140% 100% !important   ;
+    }
+}
+
+@media screen and (max-width: 999px){
   #hero {
     grid-template-columns: 1fr !important;
     grid-template-rows: 2fr !important;
@@ -11,13 +17,16 @@
   .item1 {
     order: 1;
     /* Container 1 will appear on top */
-    height: 22vh !important;
+    height: 21vh !important;
+
   }
 
   .item2 {
     order: 2;
     /* Container 2 will appear below Container 1 */
-    height: 68vh !important;
+    height: 67vh !important;
+
+
   }
 
 }
